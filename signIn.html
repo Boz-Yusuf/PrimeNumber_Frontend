@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Prime Number Calculator</title>
+</head>
+<body>
+    <div class="container d-flex align-items-center justify-content-center vh-100">
+        <div class="content">
+            <form>
+                <h2 class="mb-5">Sign In</h2>
+                <div id="errorSection" class="p-2 text-danger"></div>
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="emailInput" placeholder="Email address" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <input type="password" class="form-control" placeholder="Password" id="passwordInput">
+                </div>
+                <div class="col-md-12 d-flex justify-content-end align-items-center mb-1">
+                    <p>If you haven't an account <a href="signUp.html">Sign Up</a></p>
+                   
+                </div>
+                <button id="signInButton" type="button" class="btn btn-primary w-100">Sign In</button>
+              </form>
+        </div>
+       
+    </div>
+   
+</body>
+<script src="/scripts/signIn.js"></script>
+</html>

@@ -1,0 +1,45 @@
+/* || Global Reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* || VARIABLES */
+:root {
+    --white-color: #E8E9EB;
+    --content-background-color: #E0DFD5;
+    --content-text-color: #313638;
+    --secondary-color: #F09D51;
+  }
+
+/* || GENERAL STYLES */
+html{
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: var(--white-color);
+    height: 100vh;
+} 
+
+h1,h2,h3,p{
+    color: var(--content-text-color);
+}
+
+
+.content{
+    width: 500px;
+    background-color: var(--content-background-color);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+/* User page */
+.numberList{
+    border: 1px solid black;
+
+}
